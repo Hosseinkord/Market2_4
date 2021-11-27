@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminPanel.master.cs" Inherits="Market2.AdminPanel" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+		<title>AdminPanel</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="assets/css/rtl.css" />
+    <script src="ckeditor/ckeditor.js"></script>
+    <script src="ckeditor/build-config.js"></script>
+    <script src="ckeditor/config.js"></script>
+    <script src="ckeditor/styles.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+            </asp:ContentPlaceHolder>
+
+    </form>
+</body>
+</html>
